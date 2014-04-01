@@ -1,0 +1,24 @@
+{
+    "name": "centinel/centinel",
+    "description": "centinel allows to automatically & intelligently launch tests when files are modified.",
+    "kewords": ["phpunit", "tdd", "continuous-testing"],
+    "minimum-stability": "dev",
+    "homepage": "http://ignasiluengo.io",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ignasi Luengo",
+            "email": "ignasi.luengo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "cilex/cilex": "1.1.0",
+        "symfony/event-dispatcher": ">=2.3,<2.6-dev",
+        "symfony/yaml": ">=2.3,<2.6-dev"
+
+    },
+    "autoload": {
+        "psr-0": { "Silex": "src/" }
+    }
+}
